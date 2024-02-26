@@ -7,7 +7,7 @@ import React from "react";
 const Button = ({ ...props }: IButtonProp) => {
   return (
     <button
-      className="flex items-center p-[10px] rounded-2xl gap-[10px] "
+      className="flex items-center p-[10px] justify-center "
       color={props.bgColor}
       style={{
         backgroundColor: props.bgColor,
@@ -20,7 +20,7 @@ const Button = ({ ...props }: IButtonProp) => {
         text={props.text}
         color={props.color}
         fontSize={"small"}
-        fontWeight={"bold"}
+        fontWeight={"semiBold"}
       />
     </button>
   );
