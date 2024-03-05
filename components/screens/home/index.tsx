@@ -1,3 +1,4 @@
+import AnswerSection from "@/components/templates/answer";
 import ExpertiseSection from "@/components/templates/expects/indext";
 import HeritageSection from "@/components/templates/heritage";
 import HomeLander from "@/components/templates/lander";
@@ -10,6 +11,7 @@ const HomeScreen = () => {
       <HomeLander />
       <VideoSection />
       <HeritageSection />
+      <AnswerSection />
       <ExpertiseSection />
     </div>
   );

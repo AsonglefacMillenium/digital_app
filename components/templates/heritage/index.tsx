@@ -54,11 +54,11 @@ const HeritageSection = () => {
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="1858"
+            
             height="2"
             viewBox="0 0 1858 2"
             fill="none"
-            className="relative bottom-[300px] right-40"
+            className="relative bottom-[300px]  w-full"
           >
             <path d="M-67 1L1858 1.00017" stroke="#BF9874" stroke-width="2" />
           </svg>
