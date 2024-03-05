@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const AnswerItem = () => {
-  const [item, showItem] = useState(false);
+  const [item, setItem] = useState(false);
   return (
-    <div className="w-full flex flex-col gap-8">
+    <div className="w-full flex flex-col gap-8 hover:cursor-pointer" onClick={() => setItem(!item)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="2"
@@ -30,7 +30,7 @@ const AnswerItem = () => {
           <MdOutlineKeyboardArrowDown className="text-3xl" />
         </div>
         {item && (
-          <div className="w-full">
+          <div className="w-full px-10">
             <Text
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu"
               color="#808080"
