@@ -11,6 +11,7 @@ const Button = ({ ...props }: IButtonProp) => {
       color={props.bgColor}
       style={{
         backgroundColor: props.bgColor,
+        border: `1px solid ${props.border}`
       }}
       onClick={props.onClick}
     >

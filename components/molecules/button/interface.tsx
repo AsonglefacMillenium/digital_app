@@ -3,4 +3,5 @@ interface IButtonProp {
     bgColor: string 
     color: string 
     onClick?: () => void
+    border?: string
 }
